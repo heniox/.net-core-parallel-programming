@@ -1,0 +1,38 @@
+{
+
+  "TestMode": true,
+  "Serilog": {
+    "File": "C:\\temp\\VGI\\log\\",
+    "MinimalLevel": {
+      "Default": "Information",
+      "Override": {
+        "Microsoft": "Information",
+        "System": "Warning"
+      }
+    }
+  },
+  "FilesConfiguration": [
+    {
+      "Path": "C:\\temp\\test1",
+      "NumDays": "0",
+      "DatiVerificare": "Modification Date",
+      "SubFolders": true,
+      "Estensione": ".*"
+    },
+    {
+      "Path": "C:\\temp\\test2",
+      "NumDays": "0",
+      "DatiVerificare": "Modification Date",
+      "SubFolders": true,
+      "Estensione": ".xlsx"
+    },
+    {
+      "Path": "C:\\temp\\test3",
+      "NumDays": "0",
+      "DatiVerificare": "Modification Date",
+      "SubFolders": true,
+      "Estensione": ".*"
+    }
+  ]
+
+}
